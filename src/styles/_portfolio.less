@@ -1,0 +1,27 @@
+.portfolio-container {
+  background: #f1f1f1;
+  max-width: 1349px;
+  width: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-bottom: 30px;
+
+  .portfolio-name {
+    text-align: center;
+    font-family: OpenSansR;
+    font-size: 42px;
+    margin-top: 42px;
+    margin-bottom: 40px;
+    color: @lightgray;
+  }
+  .portfolio-row {
+
+    & .portfolio-item {
+      padding: 15px;
+
+      & > a > img {
+        width: 100%;
+      }
+    }
+  }
+}
